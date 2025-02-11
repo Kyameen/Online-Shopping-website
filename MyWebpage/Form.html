@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SwiftShop: Items
+        </title>
+        <link rel="stylesheet" href="form.css">
+
+        <script src="javascript/form.js"></script>
+    </head>
+
+    <body>
+        <div class="navigation">
+            <label class="logo">SwiftShop</label>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Items.html">Items</a></li>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <form>
+                <table>
+                    <tr>
+                        <td class="tableheading">
+                            Items
+                        </td>
+                        <td class="tableheading">
+                            Properties
+                        </td>
+                        <td class="Unitscolumn1">
+                            Number Of Items 
+                        </td>
+                        <td class="tableheading">
+                            Cost
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dressshirt1.jfif" alt="">
+                            <form action="">
+                                <input type="checkbox" id="item1" onclick="myFunc()"> Item 1
+                            </form> 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems1" onclick="myFunc()">
+                                <input type="radio" id="property1ofitem1" name="property" value="80"> Standard--Quality &nbsp;Price ( 80$ )
+                                <br>
+                                <br>
+                                <input type="radio" id="property2ofitem1" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                                <br>
+                                <br>
+                                <input type="radio" id="property3ofitem1" name="property" value="150"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 150$ )
+                                <br>
+                                
+                            </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units1" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost1">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dressshirt2.jfif" alt="">
+                            
+                                <input type="checkbox" id="item2"> Item 2
+                            
+                        </td>
+                        <td>
+                            <form action="" id="radioitems2" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem2" name="property" value="50"> Standard--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem2" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem2" name="property" value="120"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 120$ )
+                            <br>
+                            
+                            </form>    
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units2" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost2">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dressshirt3.jfif" alt="">
+                            <input type="checkbox" id="item3"> Item 3
+                        </td>
+                        <td >
+                            <form action="" id="radioitems3" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem3" name="property" value="80"> Standard--Quality &nbsp;Price ( 80$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem3" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem3" name="property" value="120"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price (120$ )
+                            <br>
+                            
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units3" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost3">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dressshirt4.jfif" alt="">
+                            <input type="checkbox" id="item4"> Item 4
+                        </td>
+                        <td>
+                            <form action="" id="radioitems4" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem4" name="property" value="80"> Standard--Quality &nbsp;Price ( 80$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem4" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem4" name="property" value="150"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 150$ )
+                            <br>
+                            
+                        </form>    
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units4" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost4">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dresspant1.png" alt="">
+                            <input type="checkbox" id="item5"> Item 5
+                        </td>
+                        <td>
+                            <form action="" id="radioitems5" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem5" name="property" value="80"> Standard--Quality &nbsp;Price ( 80$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem5" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem5" name="property" value="150"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 150$ )
+                            <br>
+                            
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units5" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost5">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dresspant2.png" alt="">
+                            <input type="checkbox" id="item6"> Item 6
+                        </td>
+                        <td>
+                            <form action="" id="radioitems6" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem6" name="property" value="30"> Standard--Quality &nbsp;Price ( 30$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem6" name="property" value="70"> Premium--Quality &nbsp;Price ( 70$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem6" name="property" value="100"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 100$ )
+                            <br>
+                            
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units6" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost6">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dresspant3.png" alt="">
+                            <input type="checkbox" id="item7"> Item 7 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems7" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem7" name="property" value="40"> Standard--Quality &nbsp;Price ( 75$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem7" name="property" value="60"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem7" name="property" value="120$"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 120$ )
+                            <br>
+                            
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units7" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost7">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/dresspant4.jfif" alt="">
+                            <input type="checkbox" id="item8"> Item 8
+                        </td>
+                        <td>
+                            <form action="" id="radioitems8" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem8" name="property" value="75"> Standard--Quality &nbsp;Price ( 75$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem8" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem8" name="property" value="160"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 160$ )
+                            <br>
+                            
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units8" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost8">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/Tshirt1.jfif" alt="">
+                            <input type="checkbox" id="item9"> Item 9
+                        </td>
+                        <td>
+                            <form action="" id="radioitems9" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem9" name="property" value="60"> Standard--Quality &nbsp;Price ( 60$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem9" name="property" value="199"> Premium--Quality &nbsp;Price ( 199$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem9" name="property" value="250"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 250$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units9" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost9">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/Tshirt2.jfif" alt="">
+                            <input type="checkbox" id="item10"> Item 10 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems10" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem10" name="property" value="20"> Standard--Quality &nbsp;Price ( 20$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem10" name="property" value="40"> Premium--Quality &nbsp;Price ( 40$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem10" name="property" value="100"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 100$ )
+                            <br>
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units10" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost10">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/Tshirt3.jfif" alt="">
+                            <input type="checkbox" id="item11"> Item 11
+                        </td>
+                        <td>
+                            <form action="" id="radioitems11" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem11" name="property" value="30"> Standard--Quality &nbsp;Price ( 30$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem11" name="property" value="50"> Premium--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem11" name="property" value="80"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 80$ )
+                            <br>
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units11" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost11">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/Tshirt4.jfif" alt="">
+                            <input type="checkbox" id="item12"> Item 12
+                        </td>
+                        <td>
+                            <form action="" id="radioitems12" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem12" name="property" value="40"> Standard--Quality &nbsp;Price ( 40$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem12" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem12" name="property" value="120"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 120$ )
+                            <br>
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units12" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost12">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/jeanspant1.jfif" alt="">
+                            <input type="checkbox" id="item13"> Item 13
+                        </td>
+                        <td>
+                            <form action="" id="radioitems13" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem13" name="property" value="20"> Standard--Quality &nbsp;Price ( 20$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem13" name="property" value="50"> Premium--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem13" name="property" value="70"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 70$ )
+                            <br>
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units13" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost13">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/jeanspant2.jfif" alt="">
+                            <input type="checkbox" id="item14"> Item 14
+                        </td>
+                        <td>
+                            <form action="" id="radioitems14" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem14" name="property" value="30"> Standard--Quality &nbsp;Price ( 30$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem14" name="property" value="60"> Premium--Quality &nbsp;Price ( 60$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem14" name="property" value="100"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 100$ )
+                            <br>
+                        </form>
+                            
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units14" onchange="myFunc()" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost14">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/jeanspant3.jfif" alt="">
+                            <input type="checkbox" id="item15"> Item 15 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems15" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem15" name="property" value="40"> Standard--Quality &nbsp;Price ( 40$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem15" name="property" value="50"> Premium--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem15" name="property" value="70"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 70$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units15" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost15">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/jeanspant4.jfif" alt="">
+                            <input type="checkbox" id="item16"> Item 16 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems16" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem16" name="property" value="80"> Standard--Quality &nbsp;Price ( 80$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem16" name="property" value="100"> Premium--Quality &nbsp;Price ( 100$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem16" name="property" value="120"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 120$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units16" onchange="myFunc()" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost16">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/Shoes1.jfif" alt="">
+                            <input type="checkbox" id="item17"> Item 17
+                        </td>
+                        <td>
+                            <form action="" id="radioitems17" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem17" name="property" value="90"> Standard--Quality &nbsp;Price ( 90$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem17" name="property" value="120"> Premium--Quality &nbsp;Price ( 120$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem17" name="property" value="150"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 150$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units17" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost17">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/shoes2.png" alt="">
+                            <input type="checkbox" id="item18"> Item 18 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems18" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem18" name="property" value="30"> Standard--Quality &nbsp;Price ( 30$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem18" name="property" value="50"> Premium--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem18" name="property" value="70"> Luxury--Quality &nbsp;&nbsp;&nbsp;&nbsp;Price ( 70$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units18" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost18">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/shoes3.jfif" alt="">
+                            <input type="checkbox" id="item19"> Item 19 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems19" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem19" name="property" value="50"> Standard--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem19" name="property" value="80"> Premium--Quality &nbsp;Price ( 80$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem19" name="property" value="100"> Luxury--Quality &nbsp;Price ( 100$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units19" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost19">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/ItemsImages/shoes4.jpeg" alt="">
+                            <input type="checkbox" id="item20"> Item 20 
+                        </td>
+                        <td>
+                            <form action="" id="radioitems20" onclick="myFunc()">
+                            <input type="radio" id="property1ofitem20" name="property" value="30"> Standard--Quality &nbsp;Price ( 30$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property2ofitem20" name="property" value="50"> Premium--Quality &nbsp;Price ( 50$ )
+                            <br>
+                            <br>
+                            <input type="radio" id="property3ofitem20" name="property" value="80"> Luxury--Quality &nbsp;Price ( 80$ )
+                            <br>
+                        </form>
+                        </td>
+                        <td class="Unitscolumn">
+                            <select id="Units20" onchange="myFunc()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+
+                        </td>
+                        <td>
+                            <h1 style="text-align: center;" id="cost20">Cost</h1>
+
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <p>Total Cost</p>
+                        </td>
+
+                        <td class="Unitscolumn">
+                            
+                            <input type="button" id="calculate" onclick="totalcostFunction()" value="Calculate">
+                        
+                        </td>
+
+                        <td>
+                            <h2 id="total_cost" style="text-align: center;">Total Cost is: </h2>
+                        </td>
+                    </tr>
+                    
+
+                    
+                </table>
+            </form>
+
+        </div>
+        
+            
+    </body>
+</html>
